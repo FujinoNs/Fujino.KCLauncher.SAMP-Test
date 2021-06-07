@@ -1,0 +1,79 @@
+﻿<Window
+    x:Class="Fujino.KCLauncher.SAMP_Test.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Fujino.KCLauncher.SAMP_Test"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <Button
+            Width="272"
+            Height="53"
+            Margin="260,297,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Button_Click"
+            Content="Start" />
+        <Label
+            x:Name="lbl_1"
+            Width="772"
+            Margin="10,71,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            HorizontalContentAlignment="Center"
+            Content="Label" />
+        <Label
+            x:Name="lbl_2"
+            Width="772"
+            Margin="10,102,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            HorizontalContentAlignment="Center"
+            Content="Label" />
+        <Label
+            x:Name="lbl_3"
+            Width="772"
+            Margin="10,133,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            HorizontalContentAlignment="Center"
+            Content="Label" />
+        <Label
+            x:Name="lbl_4"
+            Width="772"
+            Margin="10,164,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            HorizontalContentAlignment="Center"
+            Content="Label" />
+        <Label
+            x:Name="lbl_5"
+            Width="772"
+            Margin="10,195,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            HorizontalContentAlignment="Center"
+            Content="Label" />
+        <Label
+            x:Name="lbl_6"
+            Width="772"
+            Margin="10,221,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            HorizontalContentAlignment="Center"
+            Content="Label" />
+        <Label
+            x:Name="lbl_7"
+            Width="772"
+            Margin="10,252,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            HorizontalContentAlignment="Center"
+            Content="Label" />
+
+    </Grid>
+</Window>
